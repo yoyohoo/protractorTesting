@@ -1,0 +1,13 @@
+$ npm set proxy http://webproxy.wlb2.nam.nsroot.net:8080/
+$ npm install jasmine-reporters@^2.0.0
+$ npm install -g protractor
+$ webdriver-manager --proxy http://webproxy.wlb2.nam.nsroot.net:8080/ update
+//could not update .jar, copy it to: C:\Users\xz06213\AppData\Roaming\npm\node_modules\protractor\node_modules\webdriver-manager\selenium
+$ webdriver-manager start
+//create spec.js + conf.js in a clean folder, then change directory into it
+$ protractor conf.js  (protractor debugging/conf.js)
+
+
+$ npm install selenium-webdriver
+
+$ npm install protractor-browser-logs --save-dev
